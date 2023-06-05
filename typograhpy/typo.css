@@ -1,0 +1,25 @@
+
+	@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
+}
+	/*p{margin: 0; padding: 0;}*/
+		.container p{ margin: 0 0px 40px 0; font: 14px/24px "Arial"; color: #000;}
+		.container h2{ text-transform: uppercase; color:#333; font-family: 'Roboto'; font-weight: bold; font-size: 40px; margin: 0 0 20px;}
+		.container h3{text-transform: uppercase;}
+		.container{ }
+		.page{margin: 0 auto 20px auto; width:960px;  border: 2px solid gray; padding: 10px;}
+
+
+p {
+    margin-bottom: 30px;
+    font-size: 23px;
+    line-height: 26px;
+    word-spacing: 0px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Roboto';
+    color:#999;
+    font-weight: bold;
+}

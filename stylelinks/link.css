@@ -1,0 +1,68 @@
+body{
+    /* color: blue; */
+    font-size: 16px;
+}
+h1, h2, h3,h4,h5,h6{
+    /* color: red; */
+    font-size:32px;
+}
+
+ul {
+    background-color: yellow;
+    border: 1px slid red;
+}
+li{
+    color: purple;
+}
+
+p{
+    background-color: brown !important;
+    font-size:18px;
+}
+p{
+    background-color: pink;
+}
+.important{
+    background-color:aqua;
+    font-size: 26px;
+}
+
+.primary{
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+ul#nav{
+    text-decoration: underline;
+    background-color: yellowgreen;
+}
+
+ul[devName="nsa"]{
+    border: 3px solid pink;
+    background-color: gray;
+}
+
+
+p a{
+    color: red;
+    text-decoration: none;
+}
+
+li > a {
+    background-color: aqua;
+}
+h3+p{
+    background-color: red;
+
+}
+
+p.info:first-letter {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+p.brief:first-line {
+    text-decoration: underline;
+    color: blue;
+}
