@@ -6,17 +6,22 @@
 
 <link rel="stylesheet" type="text/css" href="../reset.css">
 	<style>
-
+		.container{background-color: red;}
 		p{margin: 0 10px 20px 0;}
 		
 		h3{background-color: blue;}
-		.page{ }
+		.page{ float:left; width:700px;}
 		.page p {}
-		.sidebar{ width :300px; margin: 0 50px 0 0; float: left; }
+		.sidebar{ width :300px; margin: 0 50px 0 0; float: left; background-color: #999;}
+		.cfloat::after{
+			content: "";
+			display: table;
+			clear: both;
+		}
 	</style>
 </head>
 <body>
-	<div class="container">
+	<div class="container cfloat">
 		<div class="sidebar">
 		<ul>
 			<li><a href="#">yahoo</a></li>
@@ -28,7 +33,7 @@
 	<div class="page">
 	
 		
-		<p>
+<p>
 Pakistan is the second largest Muslim country (after Indonesia), and its status as a declared nuclear power, being the only Islamic nation to have that status, plays a part in its international role. Pakistan has a fierce independent foreign policy, especially when it comes to issues such as development of nuclear weapons, construction of nuclear reactors, foreign military purchases and other issues that are vital to its national interests. Pakistan has a strategic geo-political location at the corridor of world major maritime oil supply lines, and has close proximity to the resource and oil rich central Asian countries. Pakistan is an important member of the Organisation of Islamic Cooperation (OIC), is ranked by the US as a major non-NATO ally in the war against terrorism, and has a highly disciplined military, which is the world's eighth-largest standing military force.
 </p>
 
@@ -43,6 +48,7 @@ and economic ally has been China. The relationship has survived changes of gover
 </P>
 
 <p>
+	<img src="../images/tile.jpeg" />
 Pakistan and India continue to be rivals. The Kashmir conflict remains the major point of rift; three of their four wars were over this territory.[89] Pakistan has had mixed relations with the United States. As an anti-Soviet power in the 1950s and during Soviet-Afghan War in the 1980s, Pakistan was one of the closest allies of the US,[76][90] but relations soured in the 1990s when the US imposed sanctions because of Pakistan's possession and testing of nuclear weapons.[91] The US war on terrorism led initially to an improvement in the relationship, but it was strained by a divergence of interests and resulting mistrust during the war in Afghanistan and by issues related to terrorism.[92][93][94][95] Since 1948, there has been an ongoing, and at times fluctuating, violent conflict in the southwestern province of Balochistan between various Baloch separatist groups, who seek greater political autonomy, and the central government of Pakistan.[96]
 </p>
 
